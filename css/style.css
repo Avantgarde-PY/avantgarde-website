@@ -368,10 +368,6 @@ p {
     margin: 0 5px;
 }
 
-.navStyle ul li:first-child {
-	/*margin:0px;*/
-}
-
 .navStyle ul li:last-child {
     margin: 0 0 0 23px;
 }
@@ -640,9 +636,6 @@ div#main-nav {
     padding: 40px 0 40px;
 }
 
-.service_section {
-}
-
 .service_block {
     text-align: center;
     padding-left: 15px;
@@ -731,7 +724,6 @@ color:#fff;
 }
 
 .service-list-col1 i {
-    display:;
     color: #888;
     font-size: 19px;
     font-style: normal;
@@ -981,9 +973,7 @@ background-position: right;
 background-size: auto 100%;
 background-position-y: 70px;
 }
-#about-us, h2, h3, h6, p {
-/* color: #0A1525; */
-}
+
 #about-us .read-more{
 	border: 1px solid #ED5441;
 	color: #1a1a1a;
@@ -999,8 +989,7 @@ background-position-y: 70px;
 	background-position: right;
 	background-size: auto 100%;
 }
-.about-us{ 
-}
+
 .about-us h3{
 	font-size:28px;
 }
@@ -1909,7 +1898,6 @@ div.mc-image {
     bottom: 40px;
     padding: 10px 20px;
     text-indent: 0px;
-    moz-border-radius: 0px;
     -webkit-border-radius: 0px;
     border-radius: 0px;
     z-index: 1000;
@@ -2207,7 +2195,6 @@ div.mc-image {
     background:#fff;
     border-radius:8px;
     overflow:hidden;
-    -webkit-mask-image: -webkit-radial-gradient(circle, white, black);
 }
 
 .news-content .news-media a:hover img{
@@ -2314,7 +2301,7 @@ margin: 0 18px;
 .page_section.team{
 padding: 40px 0;
 }
-, #clients {
+#clients {
 padding: 40px 0;
 }
 .client_logos ul li {
