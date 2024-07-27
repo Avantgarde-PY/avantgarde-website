@@ -18,14 +18,15 @@ def scan_images(base_dir, folders):
                     # Construct path with '/img/' prefix
                     image_path = os.path.join('img', folder, file_name).replace('\\', '/')
                     image_list.append({
-                        'src': '/' + image_path
+                        'src': '/' + image_path,
+                        'tag': folder
                     })
 
 # Scan images and generate JSON file
 scan_images(base_directory, folder_names)
 
 # Write to JSON file
-with open('portfolio.json', 'w') as json_file:
+with open('js/portfolio.json', 'w') as json_file:
     json.dump(image_list, json_file, indent=2)
 
 print('portfolio.json has been generated successfully.')
