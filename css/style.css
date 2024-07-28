@@ -194,7 +194,8 @@ font-weight: 600;}
 
 figure.effect-oscar {
 	/* background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%); */
-	background: linear-gradient(45deg, #B80F0A 0%,#000 40%,#1560BD 100%); /*TODO*/
+	/*background: linear-gradient(45deg, #B80F0A 0%,#000 40%,#1560BD 100%); TODO*/
+    background: #000 /*TODO*/
 }
 
 figure.effect-oscar img {
@@ -212,11 +213,11 @@ figure.effect-oscar figcaption {
 
 figure.effect-oscar figcaption::before {
 	position: absolute;
-	top: 30px;
-	right: 30px;
-	bottom: 30px;
-	left: 30px;
-	border: 1px solid #fff;
+	top: 5px;
+	right: 5px;
+	bottom: 5px;
+	left: 5px;
+	border: 5px solid #fff;
 	content: '';
 }
 
